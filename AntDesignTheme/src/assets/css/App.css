@@ -512,3 +512,16 @@ responsive
     display: none;
   }
 }
+
+/* 
+card features
+----------
+*/
+.customTextCard {
+  padding: 10px 16px;
+}
+
+.customCard {
+  padding: 20px 0px;
+
+}
