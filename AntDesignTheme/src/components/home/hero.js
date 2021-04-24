@@ -1,6 +1,7 @@
 import React from 'react';
 import { Carousel, Button } from 'antd';
 import { MdVideoLibrary } from "react-icons/md";
+import { Slider, Switch } from 'antd';
 
 const items = [
     {
