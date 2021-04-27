@@ -1,5 +1,7 @@
 import logo from '../../logo_catapulta.svg';
-import { Menu } from 'antd';
+import { Anchor } from 'antd';
+
+const { Link } = Anchor;
 
 
 
@@ -12,15 +14,15 @@ function AppHeader() {
              <div className="logo"/>*/} 
             <a href="http://www.catapultadesign.com">           
             <img src={logo} className="logo" alt="logo"/></a>
-               <Menu mode="horizontal" defaultSelectedKeys={['home']} style={{ lineHeight: '64px' }}>
-                 <Menu.Item key="#home">Home</Menu.Item>
-                 <Menu.Item key="#about">About</Menu.Item>
-                 <Menu.Item key="#features">Features</Menu.Item>
-                 <Menu.Item key="#howitworks">How it Works</Menu.Item>
-                 <Menu.Item key="#faq">FAQ</Menu.Item>
-                 <Menu.Item key="#pricing">Pricing</Menu.Item>
-                 <Menu.Item key="#contact">Contact</Menu.Item>
-               </Menu> 
+               <Anchor targetOffset="65">
+                    <Link href="#hero" title="Home" />
+                    <Link href="#about" title="About" />
+                    <Link href="#features" title="Features" />
+                    <Link href="#works" title="How it Works" />
+                    <Link href="#faq" title="FAQ" />
+                    <Link href="#pricing" title="Pricing" />
+                    <Link href="#contact" title="Contact" />        
+                </Anchor>
             </div>
         </div>
     );

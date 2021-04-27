@@ -22,7 +22,7 @@ function AppHero() {
             <Carousel>
                 {items.map(item => {
                     return (
-                <div className="container-fluid" key={item.key}>
+                <div id="hero" className="container-fluid" key={item.key}>
                     <div className="content">
                       <h3>{item.title}</h3>
                       <p>{item.content}</p>
