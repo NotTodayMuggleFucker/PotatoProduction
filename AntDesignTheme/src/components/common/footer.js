@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../../logo_catapulta.svg';
 import { FaFacebookF, FaInstagram, FaYoutube, FaGithub } from "react-icons/fa";
 import { FaArrowAltCircleUp } from "react-icons/fa";
-import { BackTop } from 'antd';
+import { BackTop, } from 'antd';
 
 function AppFooter() {
     return (

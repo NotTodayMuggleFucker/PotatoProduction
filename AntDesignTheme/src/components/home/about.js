@@ -47,10 +47,10 @@ function AppAbout() {
                     pariatur ducimus, saepe voluptatibus inventore commodi! Quis, explicabo molestias libero
                     tenetur temporibus perspiciatis deserunt.</p>
                 </div>
-                <Row gutter={24}>
+                <Row gutter={24, 24}>
                   {items.map(item => {
                       return (
-                        <Col span={6} key={item.key}>
+                        <Col xs={{ span:24 }} sm={{ span:24 }} md={{ span: 12}} lg={{ span:6 }} xl={{ span:6 }} key={item.key}>
                             <div className="content">
                                 <div className="icon">
                                     {item.icon}

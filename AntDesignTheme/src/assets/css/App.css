@@ -130,6 +130,7 @@ header
 .header .logo {
   width:120px;
   height:80px; 
+  justify-content: left;
 }
 
 .header .logo .fas {
@@ -327,6 +328,18 @@ about
 }
 
 /* 
+card features
+----------
+*/
+.customTextCard {
+  padding: 10px 16px;
+}
+
+.customCard {
+  padding: 20px 0px;
+}
+
+/* 
 how it works
 ------------
 */
@@ -515,15 +528,4 @@ responsive
   }
 }
 
-/* 
-card features
-----------
-*/
-.customTextCard {
-  padding: 10px 16px;
-}
 
-.customCard {
-  padding: 20px 0px;
-
-}
