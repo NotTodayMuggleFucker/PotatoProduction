@@ -508,13 +508,26 @@ footer
 responsive
 ----------
 */
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 1024px) {
+  .header .ant-anchor-wrapper {
+    margin-left: -880px !important ;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .header .ant-anchor-wrapper {
+    margin-left: -880px !important ;
+  }
+}
+
+
+@media only screen and (max-width: 992px) {
   .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
     transform: scale(1.14);
   }
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width:768px) {
   .pricingBlock .ant-row > div:nth-child(2) .ant-list-item {
     transform: scale(1);
   }
