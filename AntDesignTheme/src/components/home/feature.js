@@ -16,7 +16,7 @@ function AppFeature() {
                     <h2>Key Features and Benefits</h2>
                     <p>Obcaecati consequatur libero repudiandae, aperiam itaque laborum!</p>
                 </div>
-            <Row gutter={16, 16}>
+            <Row gutter={[16, 16]}>
               <Col className="customCard" xs={{ span:24 }} sm={{ span:24 }} md={{ span: 12 }} lg={{ span:8 }} xl={{ span:8 }}>
                  <Card hoverable bodyStyle={{ padding: 0 }}>
                     <img alt="Catapulta Web Development" width="100%" src={image1} />

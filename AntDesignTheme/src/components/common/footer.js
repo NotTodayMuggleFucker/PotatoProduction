@@ -19,7 +19,7 @@ function AppFooter() {
                    <li><a href="http://www.facebook.com"><FaGithub className="fa-pinterest-p"/></a></li>
                    <li><a href="http://www.facebook.com"><FaGithub className="fa-fa-instagram-p"/></a></li>
                </ul>
-               <div classNam="copyright">Copyright &copy; 2021 Catapulta</div>
+               <div className="copyright">Copyright &copy; 2021 Catapulta</div>
                <BackTop>
                <div className="goTop"><FaArrowAltCircleUp className=" footer fas"/></div>
             </BackTop>
