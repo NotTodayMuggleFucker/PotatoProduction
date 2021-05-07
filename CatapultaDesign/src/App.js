@@ -1,6 +1,5 @@
-/* eslint-disable react/react-in-jsx-scope */
-import logo from "./logo.svg";
-import "./assets/css/App.css";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
@@ -16,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          kihboles asda qw transa Learn React
+          Learn React
         </a>
       </header>
     </div>
