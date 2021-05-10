@@ -33,11 +33,11 @@ const items = [
 
 function AppAbout() {
     return (
-        <div id="about" className="block aboutBlock">
+        <div id="about" className="block aboutBlock bgGray">
             <div className="container-fluid">
                 <div className="titleHolder">
-                    <h2>About us</h2>
-                    <p>dolor sit amet, consectetur adipisicing elit</p>
+                    <h2>We love to explore new ways to coding the ideas connect with users</h2>
+                    <p></p>
                 </div>
                 <div className="contentHolder">
                     <p>orem ipsum dolor sit amet, consectetur adipisicing elit. Velit necessitatibus
@@ -51,6 +51,21 @@ function AppAbout() {
                   {items.map(item => {
                       return (
                         <Col xs={{ span:24 }} sm={{ span:24 }} md={{ span: 12}} lg={{ span:6 }} xl={{ span:6 }} key={item.key}>
+                            <div className="content">
+                                <div className="icon">
+                                    {item.icon}
+                                </div>
+                                <h3>{item.title}</h3>
+                                <p>{item.content}</p>
+                            </div>
+                        </Col>
+                        );
+                      })}
+                </Row>
+                <Row gutter={[24, 24]}>
+                  {items.map(item => {
+                      return (
+                        <Col xs={{ span:12 }} sm={{ span:12 }} md={{ span: 12}} lg={{ span:6 }} xl={{ span:6 }} key={item.key}>
                             <div className="content">
                                 <div className="icon">
                                     {item.icon}

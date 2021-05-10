@@ -9,10 +9,12 @@ import AppPricing from '../components/home/pricing';
 import AppContact from '../components/home/contact';
 
 
+
+
 function AppHome() {
     return (
         <div className="main">
-          <AppHero/>
+         <AppHero/>
           <AppAbout/>
           <AppFeature/>
           <AppWorks/>
