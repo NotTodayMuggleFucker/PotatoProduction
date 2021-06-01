@@ -61,12 +61,12 @@
 
 .btn--wide:hover{
     color: #fff;
-    background-color: #f00946;
+    background-color: #ba196d;
     transition: all 0.3s ease-out;
 }
 
-.blue {
-    background-color: #276afb;
+.pink {
+    background-color: #F2218E;
     color: #fff;
     border: none;
 }
