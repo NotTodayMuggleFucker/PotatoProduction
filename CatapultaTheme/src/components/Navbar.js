@@ -5,6 +5,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { Button }  from '../components/Button';
 import './Navbar.css';
 import { IconContext } from 'react-icons/lib'
+import logo from '../assets/images/logo_catapulta.svg';
 
 function Navbar() {
    const [click, setClick] = useState(false);
@@ -33,9 +34,11 @@ function Navbar() {
         <IconContext.Provider value={{ color: '#fff'}}>
         <div className="navbar">
             <div className="navbar-container container">
-                <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
+            <Link onClick={closeMobileMenu}> <img src={logo} className="logo" alt="logo"/>
+            {/* <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
                     <MdFingerprint className="navbar-icon" />
                   CATAPULTA
+                </Link>*/}
                 </Link>
                 <div className="menu-icon" onClick={handleClick} >
                 { click ? <FaTimes /> : <FaBars />}

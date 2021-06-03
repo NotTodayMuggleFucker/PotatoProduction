@@ -7,6 +7,7 @@ import Home from './components/pages/Homepage/Home';
 import Services from './components/pages/Services/Services';
 import Products from './components/pages/Products/Products';
 import SignUp from './components/pages/SignUp/SignUp';
+import FooterBg from './components/FooterBg';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
        <Route path='/products' component={Products} />
        <Route path='/sign-up' component={SignUp} />
       </Switch>
+      <FooterBg />
       <Footer />
     </Router>
    

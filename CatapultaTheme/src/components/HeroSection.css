@@ -67,6 +67,12 @@
   .home__hero-img-wrapper {
     max-width: 555px;
   }
+
+  .home__hero-img-wrapper:hover {
+    transform: scale(1.06);
+    transition: all 0.3s ease-out;
+    color: #1c2237;
+  }
   
   .home__hero-img {
     max-width: 95%;
@@ -95,12 +101,13 @@
       padding-bottom: 65px;
     }
   
-    .col {
+    .col  {
       max-width: 100%;
       flex-basis: 100%;
     }
   }
   
+
   
   
   

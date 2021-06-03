@@ -4,6 +4,7 @@ import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin} from 'react-icons/fa';
 import { MdFingerprint } from 'react-icons/md';
+import logo from '../../../assets/images/logo_catapulta.svg';
 
 function Footer() {
   return (
@@ -30,32 +31,31 @@ function Footer() {
       <div className='footer-links'>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms of Service</Link>
+            <h2>Hosting Plan</h2>
+            <Link to='/sign-up'>Coming Soon!</Link>
+            <Link to='/'></Link>
+            <Link to='/'></Link>
+            <Link to='/'></Link>
           </div>
           <div className='footer-link-items'>
-            <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <h2>Projects</h2>
+            <Link to='/sign-up'>Coming Soon!</Link>
+            <Link to='/'></Link>
+            <Link to='/'></Link>
+            <Link to='/'></Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+          <h2>Style Guide</h2>
+            <Link to='/'>Coming Soon!</Link>
+            <Link to='/'></Link>
+            <Link to='/'></Link>
+            <Link to='/'></Link>
           </div>
           <div className='footer-link-items'>
-            <h2>Style Guide</h2>
-            <Link to='/'></Link>
+            <h2>Resources</h2>
+            <Link to='/'>Coming Soon!</Link>
             <Link to='/'></Link>
             <Link to='/'></Link>
             <Link to='/'></Link>
@@ -63,16 +63,24 @@ function Footer() {
         </div>
       </div>
       <section className='social-media'>
-        <div className='social-media-wrap'>
-          <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
+      <section className='footer-subscription'>
+        <p className='footer-subscription-heading'>
+        <Link> <img src={logo} className="logo" alt="logo"/></Link>
+        </p>
+        <p className='website-rights'>
+        Catapulta © 2020
+        </p>
+      </section>
+        {/*<div className='social-media-wrap'>*/}
+         {/* <div className='footer-logo'>
+           <Link to='/' className='social-logo'>
               <MdFingerprint className='navbar-icon' />
               CATAPULTA
             </Link>
-          </div>
-          <medium className='website-rights'>Catapulta © 2020</medium>
-          <div className='social-icons'>
-            <Link
+          </div>*/}
+         {/* <medium className='website-rights'></medium>*/}
+          {/*<div className='social-icons'>
+           <Link
               className='social-icon-link'
               to='/'
               target='_blank'
@@ -114,8 +122,8 @@ function Footer() {
             >
               <FaLinkedin />
             </Link>
-          </div>
-        </div>
+          </div>*/}
+        {/*</div>*/}
       </section>
     </div>
   );
