@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 
 export const homeObjOne = {
@@ -32,7 +33,7 @@ export const homeObjOne = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'We use Adobe Xd',
+    topLine: 'We enjoy using Adobe Xd',
     headline: 'UI Design',
     description:
       'The User Interface Design is the graphical layout of an application or website. This includes screen layout, transitions, interface  and every single micro-interaction. ',

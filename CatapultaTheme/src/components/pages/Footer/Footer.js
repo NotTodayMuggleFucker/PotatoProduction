@@ -2,8 +2,6 @@ import React from 'react';
 import './Footer.css';
 import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
-import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin} from 'react-icons/fa';
-import { MdFingerprint } from 'react-icons/md';
 import logo from '../../../assets/images/logo_catapulta.svg';
 
 function Footer() {
@@ -65,19 +63,13 @@ function Footer() {
       <section className='social-media'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-        <Link> <img src={logo} className="logo" alt="logo"/></Link>
+        <Link to='/home'> <img src={logo} className="logo" alt="logo"/></Link>
         </p>
         <p className='website-rights'>
         Catapulta © 2020
         </p>
       </section>
         {/*<div className='social-media-wrap'>*/}
-         {/* <div className='footer-logo'>
-           <Link to='/' className='social-logo'>
-              <MdFingerprint className='navbar-icon' />
-              CATAPULTA
-            </Link>
-          </div>*/}
          {/* <medium className='website-rights'></medium>*/}
           {/*<div className='social-icons'>
            <Link

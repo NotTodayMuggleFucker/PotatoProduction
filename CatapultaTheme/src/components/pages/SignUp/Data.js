@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 
 export const homeObjOne = {
@@ -29,18 +30,18 @@ export const homeObjTwo = {
   };
   
   export const homeObjThree = {
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
-    topLine: 'EASY SETUP',
-    headline: 'Super fast and simple onboarding process',
-    description:
-      "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-    buttonLabel: 'Start Now',
-    imgStart: 'start',
-    img: 'images/svg-7.svg',
-    alt: 'Vault'
-  };
+      lightBg: true,
+      lightText: false,
+      lightTextDesc: false,
+      topLine: 'Lorem ipsum dolor',
+      headline: 'Lorem ipsum dolor sit amet',
+      description:
+        'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+      buttonLabel: 'Sign Up Now',
+      imgStart: 'start',
+      img: 'images/svg_hero.svg',
+      alt: 'Vault'
+    };
   
   export const homeObjFour = {
     lightBg: false,

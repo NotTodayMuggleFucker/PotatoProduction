@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 
 export const homeObjOne = {
@@ -43,15 +44,15 @@ export const homeObjTwo = {
   };
   
   export const homeObjFour = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'DATA ANALYTICS',
-    headline: 'Every transaction is stored on our secure cloud database',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Lorem ipsum dolor',
+    headline: 'Lorem ipsum dolor sit amet',
     description:
-      'Never ever have to worry again about saved reciepts. We store your data, so you can access it anytime.',
+      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
     buttonLabel: 'Sign Up Now',
     imgStart: 'start',
-    img: 'images/svg-8.svg',
+    img: 'images/svg_hero.svg',
     alt: 'Vault'
   };

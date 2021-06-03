@@ -1,17 +1,18 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 
 export const homeObjOne = {
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
-    topLine: 'Take your Business to the next level',
-    headline: 'Unlimited Transactions with zero fees',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Lorem ipsum dolor',
+    headline: 'Lorem ipsum dolor sit amet',
     description:
-      'Get access to our exclusive diamond card that allows you to send unlimited transactions without getting charged any fees',
-    buttonLabel: 'Get Started',
-    imgStart: '',
-    img: 'images/svg-1.svg',
-    alt: 'Credit Card'
+      'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.',
+    buttonLabel: 'Sign Up Now',
+    imgStart: 'start',
+    img: 'images/svg_hero.svg',
+    alt: 'Vault'
   };
 
 export const homeObjTwo = {

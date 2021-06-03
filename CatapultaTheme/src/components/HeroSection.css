@@ -1,6 +1,6 @@
 .home__hero-section {
     color: #fff;
-    padding: 160px 0;
+    padding: 150px 0;
   }
   
   .home__hero-row {
@@ -54,7 +54,7 @@
   }
 
   .darkBg {
-    background-color: #121549;
+    background: linear-gradient(#121549, #71bced);
   }
 
   .home__hero-subtitle {

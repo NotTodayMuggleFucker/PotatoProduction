@@ -3,7 +3,7 @@ import HeroSection from '../../HeroSection';
 import Pricing from '../../Pricing';
 import {homeObjOne } from './Data';
 
-function Services() {
+function Plans() {
     return (
         <>
          <Pricing />
@@ -12,4 +12,4 @@ function Services() {
     )
 }
 
-export default Services;
+export default Plans;

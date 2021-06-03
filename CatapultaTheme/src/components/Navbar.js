@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { MdFingerprint } from 'react-icons/md';
 import { FaBars, FaTimes } from 'react-icons/fa'; 
 import { Button }  from '../components/Button';
 import './Navbar.css';
@@ -34,29 +33,25 @@ function Navbar() {
         <IconContext.Provider value={{ color: '#fff'}}>
         <div className="navbar">
             <div className="navbar-container container">
-            <Link onClick={closeMobileMenu}> <img src={logo} className="logo" alt="logo"/>
-            {/* <Link to='/' className="navbar-logo" onClick={closeMobileMenu}>
-                    <MdFingerprint className="navbar-icon" />
-                  CATAPULTA
-                </Link>*/}
+            <Link to='/home'onClick={closeMobileMenu}> <img src={logo} className="logo" alt="logo"/>
                 </Link>
                 <div className="menu-icon" onClick={handleClick} >
                 { click ? <FaTimes /> : <FaBars />}
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                   <li className='nav-item'>
-                      <Link to='/' className='nav-links' onClick={closeMobileMenu}>
-                          Home
+                      <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
+                        Home
                       </Link>
                   </li>
                   <li className='nav-item'>
-                      <Link to='/services' className='nav-links' onClick={closeMobileMenu}>
-                          Services
+                      <Link to='/Pricing' className='nav-links' onClick={closeMobileMenu}>
+                      Plans
                       </Link>
                   </li>
                   <li className='nav-item'>
-                      <Link to='/products' className='nav-links' onClick={closeMobileMenu}>
-                          Products
+                      <Link to='/Proyects' className='nav-links' onClick={closeMobileMenu}>
+                          Proyects
                       </Link>
                   </li>
                   <li className='nav-btn'>
@@ -68,7 +63,7 @@ function Navbar() {
                       ) : (
                         <Link to='/sign-up' className='btn-link' onClick={closeMobileMenu}>
                         <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
-                            SIGN UP
+                            Sign Up
                         </Button>
                     </Link>  
                       )}

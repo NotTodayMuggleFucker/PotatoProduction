@@ -2,7 +2,7 @@ import React from 'react';
 import HeroSection from '../../HeroSection';
 import { homeObjFour } from './Data';
 
-function Products() {
+function Proyects() {
     return (
         <>
          <HeroSection {...homeObjFour} />
@@ -10,4 +10,4 @@ function Products() {
     )
 }
 
-export default Products;
+export default Proyects;
