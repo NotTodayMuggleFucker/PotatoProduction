@@ -1,6 +1,7 @@
 .home__hero-section {
     color: #fff;
     padding: 150px 0;
+    background: #f6eddf;
   }
   
   .home__hero-row {
@@ -46,11 +47,11 @@
     font-size: 48px;
     line-height: 1.1;
     font-weight: 600;
-    color: #f7f8fa;
+    color: #f7faf7;
   }
 
   .dark {
-    color: #1c2237;
+    color: #121549;
   }
 
   .darkBg {

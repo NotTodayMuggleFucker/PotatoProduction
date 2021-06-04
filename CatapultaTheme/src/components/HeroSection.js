@@ -1,7 +1,10 @@
 import React from 'react';
 import { Button } from './Button';
-import { Link } from 'react-router-dom';
 import './HeroSection.css';
+
+const onClickMailtoHandler = () => {
+  //TODO: open default e-mail client e.g. via mailto link with text from (state) variable as body
+}
 
  function HeroSection({
      lightBg,
@@ -10,7 +13,7 @@ import './HeroSection.css';
      lightTextDesc, 
      headline, 
      description, 
-     buttonLabel, 
+     buttonLabel,
      img, 
      alt, 
      imgStart
@@ -37,11 +40,11 @@ import './HeroSection.css';
                                  >
                                   {description}
                                  </p>
-                                 <Link to='sign-up'>
-                                     <Button buttonSize='btn--wide' buttonColor='pink'>
-                                        {buttonLabel}
+                                 <a href='mailto:davidkalvo@hotmail.com.com?body=Awesome site!'>
+                                     <Button buttonSize='btn--wide' buttonColor='pink' onClick={onClickMailtoHandler}>
+                                     {buttonLabel}
                                      </Button>
-                                 </Link> 
+                                 </a> 
                              </div>
                            </div>
                         <div className='col'>

@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css';
 import { Button } from '../../Button';
 import { Link } from 'react-router-dom';
-import logo from '../../../assets/images/logo_catapulta.svg';
+import logoFooter from '../../../assets/images/logo_catapulta_footer.svg';
 
 function Footer() {
   return (
@@ -63,10 +63,10 @@ function Footer() {
       <section className='social-media'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-        <Link to='/home'> <img src={logo} className="logo" alt="logo"/></Link>
+        <Link to='/'> <img src={logoFooter} className="logo" alt="logo"/></Link>
         </p>
         <p className='website-rights'>
-        Catapulta © 2020
+        Catapulta © 2021
         </p>
       </section>
         {/*<div className='social-media-wrap'>*/}

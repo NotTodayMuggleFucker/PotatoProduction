@@ -53,6 +53,11 @@
     font-size: 20px;
 }
 
+.btn--wide--two{
+    padding: 12px 64px; 
+    font-size: 20px;
+}
+
 .btn--large:hover, .btn--medium:hover, .btn--mobile:hover {
     transition: all 0.3s ease-out;
     background: #fff;
@@ -62,6 +67,12 @@
 .btn--wide:hover{
     color: #fff;
     background-color: #ba196d;
+    transition: all 0.3s ease-out;
+}
+
+.btn--wide--two:hover{
+    color: #fff;
+    background-color: #121549;
     transition: all 0.3s ease-out;
 }
 
@@ -78,13 +89,13 @@
 }
 
 .primary {
-    background-color: #242424;
+    background-color: #F2218E;
     color: #fff;
     border: none;
 }
 
 .primary:hover {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     color: #242424;
     border: none;
 }

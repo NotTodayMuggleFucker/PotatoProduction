@@ -4,7 +4,7 @@ import { FaBars, FaTimes } from 'react-icons/fa';
 import { Button }  from '../components/Button';
 import './Navbar.css';
 import { IconContext } from 'react-icons/lib'
-import logo from '../assets/images/logo_catapulta.svg';
+import logoFooter from '../assets/images/logo_catapulta_footer.svg';
 
 function Navbar() {
    const [click, setClick] = useState(false);
@@ -33,40 +33,41 @@ function Navbar() {
         <IconContext.Provider value={{ color: '#fff'}}>
         <div className="navbar">
             <div className="navbar-container container">
-            <Link to='/home'onClick={closeMobileMenu}> <img src={logo} className="logo" alt="logo"/>
+            <Link to='/'onClick={closeMobileMenu}> <img src={logoFooter} className="logo" alt="logo"/>
                 </Link>
                 <div className="menu-icon" onClick={handleClick} >
                 { click ? <FaTimes /> : <FaBars />}
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                   <li className='nav-item'>
-                      <Link to='/home' className='nav-links' onClick={closeMobileMenu}>
+                      <Link to='/' className='nav-links' onClick={closeMobileMenu}>
                         Home
                       </Link>
                   </li>
                   <li className='nav-item'>
                       <Link to='/Pricing' className='nav-links' onClick={closeMobileMenu}>
-                      Plans
+                
                       </Link>
                   </li>
                   <li className='nav-item'>
                       <Link to='/Proyects' className='nav-links' onClick={closeMobileMenu}>
-                          Proyects
+                     
                       </Link>
                   </li>
                   <li className='nav-btn'>
-                      {button ? (
+                    {/*  {button ? (
                         <Link to='/sign-up' className='btn-link'>
-                          <Button buttonStyle='btn--outline'>SIGN UP
+                         <Button buttonStyle='btn--outline'>
+                              SIGN UP
                           </Button>
                       </Link>
                       ) : (
                         <Link to='/sign-up' className='btn-link' onClick={closeMobileMenu}>
                         <Button buttonStyle='btn--outline' buttonSize='btn--mobile'>
-                            Sign Up
+                        SIGN UP
                         </Button>
-                    </Link>  
-                      )}
+                      </Link>  
+                      )} */}
                   </li>
                 </ul>
             </div>     
