@@ -1,5 +1,6 @@
 {
   "name": "catapultatheme",
+  "homepage": "http://www.catapultadesign.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
