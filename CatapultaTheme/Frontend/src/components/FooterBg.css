@@ -1,0 +1,12 @@
+.img_wave_bg_down {
+    background: url('/src/assets/images/img_wave_bg_down.svg') no-repeat ;
+    background-size: cover;
+    height: 19vh;
+  }
+
+  @media screen and (max-width: 991px) {
+    .img_wave_bg_down {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }

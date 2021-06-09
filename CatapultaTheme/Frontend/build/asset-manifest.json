@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b99c8cac.chunk.css",
+    "main.js": "/static/js/main.e1055dc4.chunk.js",
+    "main.js.map": "/static/js/main.e1055dc4.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cd00e4bb.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cd00e4bb.js.map",
+    "static/js/2.5f3bffaf.chunk.js": "/static/js/2.5f3bffaf.chunk.js",
+    "static/js/2.5f3bffaf.chunk.js.map": "/static/js/2.5f3bffaf.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b99c8cac.chunk.css.map": "/static/css/main.b99c8cac.chunk.css.map",
+    "static/js/2.5f3bffaf.chunk.js.LICENSE.txt": "/static/js/2.5f3bffaf.chunk.js.LICENSE.txt",
+    "static/media/HeaderBg.css": "/static/media/img_Wave_Bg_Up.17ec1afc.svg",
+    "static/media/FooterBg.css": "/static/media/img_wave_bg_down.4ba0306c.svg",
+    "static/media/logo_catapulta_footer.a73730c0.svg": "/static/media/logo_catapulta_footer.a73730c0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd00e4bb.js",
+    "static/js/2.5f3bffaf.chunk.js",
+    "static/css/main.b99c8cac.chunk.css",
+    "static/js/main.e1055dc4.chunk.js"
+  ]
+}

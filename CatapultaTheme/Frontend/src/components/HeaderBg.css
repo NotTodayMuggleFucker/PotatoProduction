@@ -1,0 +1,22 @@
+.imgWaveBgUp {
+    background: url('/src/assets/images/img_Wave_Bg_Up.svg') no-repeat ;
+    background-position: 50% 100%;
+    background-size: cover;
+    height: 19vh;
+  }
+
+
+  @media screen and (max-width: 991px) {
+    .imgWaveBgUp {
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+  }
+  
+ 
+
+  
+
+  
+  
+  
