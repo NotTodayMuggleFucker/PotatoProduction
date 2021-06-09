@@ -4,8 +4,10 @@ import axios from 'axios';
 import './ContactForm.css';
 import { Button } from './Button';
 
+
+
 const ContactForm = () => {
- 
+
     const [data, setData] = useState({
         name: '',
         email: '',
@@ -24,8 +26,9 @@ const ContactForm = () => {
 
     const sendData = (event) => {
         event.preventDefault()
-        console.log('enviando data...' + data.name + ' '  + data.email  + data.subject + data.message)
+        console.log('sending data...' + data.name + ' ' + data.email + ' ' + data.subject  + ' ' + data.message)
     }
+    
 
     return (
         <Fragment>
@@ -34,30 +37,30 @@ const ContactForm = () => {
               <p className='contact-form-text'>
                 We’re available for remote projects around the world.
                  </p>
-            <form className="form__container-card" onSubmit={sendData}>
+            <form onSubmit={sendData} className="form__container-card">
                 <div className="">
-                    <input type="text"
-                     placeholder="Name" className="form-input" 
-                     onChange={handleInputChange} name="name">
+                    <input type="text" name="name" onChange={handleInputChange}
+                     placeholder="Name" className="form-input">
                      </input>
+                    
                 </div>
                 <div className="">
-                <input type="email"
-                     placeholder="Email address" className="form-input" 
-                     onChange={handleInputChange} name="email">
+                <input type="email" name="email" onChange={handleInputChange}
+                     placeholder="Email address" className="form-input">
                      </input>
+                     
                 </div>
                 <div className="">
-                     <input type="text"
-                     placeholder="Subject" className="form-input" 
-                     onChange={handleInputChange} name="subject">
+                     <input type="text" name="subject" onChange={handleInputChange}
+                     placeholder="Subject" className="form-input">
                      </input>
+                     
                 </div>
                 <div className="">
-                    <textarea type="text"
-                     placeholder="Message" className="form-input" 
-                     onChange={handleInputChange} name="message">
+                    <textarea type="text" name="message" onChange={handleInputChange}
+                     placeholder="Message" className="form-input">
                      </textarea>
+                     
                 </div>
                 <Button type="submit"  className='btn--primary'  buttonSize='btn--wide' buttonColor='pink'>
                     Send
